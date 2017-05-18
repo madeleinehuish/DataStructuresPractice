@@ -18,7 +18,7 @@ const binarySearch = function(array, value) {
     let mid = Math.floor(lo + (hi - lo) / 2);
 
     if (array[mid] === value) {
-      return mid
+      return mid;
     } else if (array[mid] < value) {
       lo = mid + 1;
     } else {
